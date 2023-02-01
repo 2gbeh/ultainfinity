@@ -1,0 +1,35 @@
+.drawer {
+  li {
+    margin-bottom: 40px;
+    display: block;
+
+    a {
+      color: #999;
+      position: relative;
+
+      &:hover {
+        color: #eee;
+      }
+
+      &.active {
+        color: #a9ded8;
+        color: #0093dd;
+      }
+    }
+
+    i {
+      font-size: 24px;
+    }
+
+    b {
+      background-color: #e11;
+      color: #fff;
+      border-radius: 100%;
+      padding:2px 6px;
+      font-size: 10px;
+      position: absolute;
+      top: -5px;
+      right: -12px;
+    }
+  }
+}

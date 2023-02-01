@@ -1,0 +1,83 @@
+.coin {
+  .flex {
+    // border-bottom: 1px solid #e11;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .flex-item {
+      // border-bottom: 1px solid #e11;
+      background-color: #333;
+      border-radius: 20px;
+      margin: 20px;
+      padding: 20px;
+      width: 25%;
+      // min-height: 200px;
+
+      &:nth-child(odd) {
+        background-image: radial-gradient(50.71% 54.74% at 19.51% 27.49%, #282E52 0%, #242537 59.02%, #22222C 100%);
+      }
+
+      &:nth-child(even) {
+        background-image: radial-gradient(50.71% 54.74% at 19.51% 27.49%, #2C4645 0%, #252C32 59.02%, #22222C 100%);
+      }
+    }
+
+  }
+
+  i {
+    color: #eee;
+    font-size: 18px;
+    float: right;
+  }
+
+  figure {
+    img {
+      border-radius: 10px;
+      width: 40px;
+    }
+
+    figcaption {
+      color: #ccc;
+      font-size: 14px;
+    }
+  }
+
+  h5 {
+    margin-top: 15px;
+  }
+}
+
+.wallet {
+  background-color: #68AFAA;
+  margin-bottom: 40px;
+  padding: 25px;
+  border-radius: 30px;
+
+  h5 {
+    margin: 10px 0 20px;
+  }
+
+  table tr {
+    vertical-align: bottom;
+  }
+
+  .label {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  .input {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  figure {
+    img {
+      width: 50px;
+    }
+    figcaption {
+      font-size: 10px;
+    }
+  }
+}

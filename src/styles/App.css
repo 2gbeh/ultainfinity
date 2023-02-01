@@ -1,0 +1,25 @@
+.App .container {
+  margin: 0 auto;
+  width: 1280px;
+}
+
+.App .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.App .flex-item {
+  padding: 0 40px;
+  /* border: 1px solid #e11; */
+}
+
+.App .flex-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.App .flex-item-inner {
+  /* border: 1px solid #090; */
+  padding: 0 10px;
+}
